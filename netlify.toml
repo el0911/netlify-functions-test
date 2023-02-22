@@ -1,0 +1,11 @@
+[build]
+  functions = "netlify/functions/"
+
+[context.dev.environment]
+  storageBucket = "***********"
+  apiKey = "***********"
+  authDomain = "***********"
+  projectId = "***********"
+  messagingSenderId = "***********"
+  appId = "***********"
+
