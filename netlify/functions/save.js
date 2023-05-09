@@ -20,7 +20,7 @@ exports.handler = async (event, context) => { /// handler
 	
     const {address} = JSON.parse(event.body);
     console.log(address);
-    //client.set("test-key", email);
+    //client.set("test-key", address);
 
     return { statusCode: 200, body: JSON.stringify({ success:true, address: address }) };
 
